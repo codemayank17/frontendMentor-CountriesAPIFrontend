@@ -22,17 +22,17 @@ export default function SwipableCons({ light, match }) {
       {loading ? (
         <p></p>
       ) : (
-        <BindKeyboardSwipeableViews
-          enableMouseEvents
-          index={con.findIndex(c => c.alpha3Code === code)}
-        >
-          {con.map(cons => (
-            <div>
-              <Details light={light} con={cons} />
-            </div>
-          ))}
-        </BindKeyboardSwipeableViews>
-        // <Details light={light} con={con.find(c => c.alpha3Code === code)} />
+        // <BindKeyboardSwipeableViews
+        //   enableMouseEvents
+        //   index={con.findIndex(c => c.alpha3Code === code)}
+        // >
+        //   {con.map(cons => (
+        //     <div>
+        //       <Details light={light} con={cons} />
+        //     </div>
+        //   ))}
+        // </BindKeyboardSwipeableViews>
+        <Details light={light} con={con.find(c => c.alpha3Code === code)} />
       )}
     </div>
   );
