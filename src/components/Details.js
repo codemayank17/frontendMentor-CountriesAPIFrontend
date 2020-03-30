@@ -124,14 +124,16 @@ export default function Details({ light, con }) {
               >
                 Border Countries :
               </span>{" "}
-              {con.borders.map(c => (
-                <span
-                  className={`formControl form-group card-${light} text${light} px-2 m-1`}
-                  style={{ fontWeight: "normal", fontSize: "14px" }}
-                >
-                  {c}
-                </span>
-              ))}
+              <div className="row">
+                {con.borders.map(c => (
+                  <div
+                    className={`formControl form-group card-${light} text${light} px-2 mx-1 col-2`}
+                    style={{ fontWeight: "normal", fontSize: "14px" }}
+                  >
+                    {c}
+                  </div>
+                ))}
+              </div>
             </span>
             <br />
           </div>
