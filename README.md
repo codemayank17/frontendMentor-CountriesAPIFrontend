@@ -3,7 +3,7 @@
 ## Description
 This project has been created using react framework. For styles bootstrap and custom css has been used. The site also has a dark theme mode.
 
-The site is live at : https://5e820d394ec2bf00083f52ca--affectionate-spence-963cb5.netlify.com/
+The site is live at : https://affectionate-spence-963cb5.netlify.com/
 
 ## Screenshots
 
